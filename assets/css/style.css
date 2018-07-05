@@ -1,0 +1,75 @@
+body{
+	font-size:16px;
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+a, a:hover, a:focus, a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+.carousel {
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.carousel-inner, section{
+	height:100vh;
+}
+section{
+	padding:50px 0;
+}
+#hosting .nav-tabs {
+    border-bottom: 1px solid #333;
+}
+.nav-tabs>li>a{
+	text-align:center;
+	border:none;
+	opacity:0.5;
+	transition:opacity .3s ease-in-out;
+}
+.nav-tabs>li>a:hover{
+	background:none; 
+	opacity:0.8;
+}
+#hosting .nav-tabs>li>a{
+	color:#333;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border:none;
+	background:none;
+	color:#fff;
+	opacity:1;
+}
+#hosting .nav-tabs>li.active>a, #hosting .nav-tabs>li.active>a:focus, #hosting .nav-tabs>li.active>a:hover{ 
+	color:#333; 
+}
+.nav-tabs.nav-stacked>li>a{
+	text-align:left;
+}
+#hosting .nav-tabs.nav-stacked>li>a{ 
+	color:#333; 
+}
+#dominios{
+	background:#4A90E2;
+}
+#hosting{
+	background:#B8E986;
+	color:#333;
+} 
+.carousel-caption{
+	top:50vh;
+}
+.glyphicon.center-block{
+	font-size:32px;
+	margin:30px auto;
+}
+footer{ 
+	background:#000;
+	padding:50px 0;
+}
+@media (max-width:768px){ 
+	.carousel-caption{
+		top:0;
+	}
+}
